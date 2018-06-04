@@ -89,13 +89,3 @@ if __name__=='__main__':
             continue
 
 
-    print(man_wha_go.title)
-    print(man_wha_go.author)
-    print(man_wha_go.description)
-    man_wha_go.get_every_page_html()
-    man_wha_go.get_every_ep_list()
-    print(man_wha_go.episode_list)
-
-    man_wha_go.episode_list[0].get_image_url_list()
-
-    man_wha_go.episode_list[0].download_all_images()
